@@ -25,7 +25,5 @@ class School
       grade.sort
       data.sort
     end
-
-  end
-
+    @roster
 end
