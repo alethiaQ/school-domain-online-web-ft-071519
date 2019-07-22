@@ -25,6 +25,6 @@ class School
 
       data.sort
     end
-  
+
 end
 end
