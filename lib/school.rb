@@ -25,6 +25,6 @@ class School
 
       @roster[grade][data.sort]
     end
-@roster
+
 end
 end
