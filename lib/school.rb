@@ -24,7 +24,7 @@ class School
     @roster.each do|grade, data|
       data.sort
     end
-  end
+
   end
 
 end
