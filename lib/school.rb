@@ -23,7 +23,7 @@ class School
   def sort
     @roster.each do |key, values|
       values.sort
-
+    end
   end
 
 end
