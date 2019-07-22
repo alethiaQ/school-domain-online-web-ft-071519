@@ -19,4 +19,7 @@ class School
   def grade=(num)
     @grade_roster =  @roster[num]
   end
+  def grade
+    @grade_roster
+  end
 end
