@@ -21,10 +21,9 @@ class School
   end
 
   def sort
-    @roster.map do|grade, data|
+    @roster.values.sort 
 
-      @roster[grade][data.sort]
     end
+  end
 
-end
 end
