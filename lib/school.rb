@@ -1,6 +1,6 @@
 # code here!
 class School
-  attr_reader :roster
+  attr_reader :roster, :grade
 
 
   def initialize(name)
@@ -17,6 +17,6 @@ class School
   end
 
   def grade=(num)
-    return @roster[num]
+     @roster[num]
   end
 end
